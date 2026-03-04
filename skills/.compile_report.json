@@ -1,0 +1,375 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "openmoc",
+  "evidence": {
+    "core_skills": [
+      "openmoc-api-and-scripting",
+      "openmoc-inputs-and-modeling",
+      "openmoc-build-and-install",
+      "openmoc-theory-and-methods",
+      "openmoc-releasenotes",
+      "openmoc-parallel-hpc"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/openmoc-api-and-scripting.md",
+      "skills/.evidence/openmoc-inputs-and-modeling.md",
+      "skills/.evidence/openmoc-build-and-install.md",
+      "skills/.evidence/openmoc-theory-and-methods.md",
+      "skills/.evidence/openmoc-releasenotes.md",
+      "skills/.evidence/openmoc-parallel-hpc.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/.evidence/memory.md",
+        "skills/openmoc-advanced-topics/SKILL.md",
+        "skills/openmoc-advanced-topics/references/doc_map.md",
+        "skills/openmoc-advanced-topics/references/source_map.md"
+      ],
+      "changed": [
+        "skills/.evidence/memory.md",
+        "skills/openmoc-advanced-topics/SKILL.md",
+        "skills/openmoc-advanced-topics/references/doc_map.md",
+        "skills/openmoc-advanced-topics/references/source_map.md",
+        "skills/openmoc-api-and-scripting/SKILL.md",
+        "skills/openmoc-build-and-install/SKILL.md",
+        "skills/openmoc-devguide/SKILL.md",
+        "skills/openmoc-devguide/references/doc_map.md",
+        "skills/openmoc-devguide/references/source_map.md",
+        "skills/openmoc-index/SKILL.md",
+        "skills/openmoc-inputs-and-modeling/SKILL.md",
+        "skills/openmoc-license/SKILL.md",
+        "skills/openmoc-license/references/doc_map.md",
+        "skills/openmoc-license/references/source_map.md",
+        "skills/openmoc-parallel-hpc/SKILL.md",
+        "skills/openmoc-publications/SKILL.md",
+        "skills/openmoc-publications/references/doc_map.md",
+        "skills/openmoc-publications/references/source_map.md",
+        "skills/openmoc-releasenotes/SKILL.md",
+        "skills/openmoc-theory-and-methods/SKILL.md"
+      ],
+      "deleted": [
+        "skills/openmoc-devguide/SKILL.md",
+        "skills/openmoc-devguide/references/doc_map.md",
+        "skills/openmoc-devguide/references/source_map.md",
+        "skills/openmoc-license/SKILL.md",
+        "skills/openmoc-license/references/doc_map.md",
+        "skills/openmoc-license/references/source_map.md",
+        "skills/openmoc-publications/SKILL.md",
+        "skills/openmoc-publications/references/doc_map.md",
+        "skills/openmoc-publications/references/source_map.md"
+      ],
+      "modified": [
+        "skills/openmoc-api-and-scripting/SKILL.md",
+        "skills/openmoc-build-and-install/SKILL.md",
+        "skills/openmoc-index/SKILL.md",
+        "skills/openmoc-inputs-and-modeling/SKILL.md",
+        "skills/openmoc-parallel-hpc/SKILL.md",
+        "skills/openmoc-releasenotes/SKILL.md",
+        "skills/openmoc-theory-and-methods/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/openmoc-advanced-topics/references/source_map.md",
+        "skills/openmoc-api-and-scripting/SKILL.md",
+        "skills/openmoc-api-and-scripting/references/source_map.md",
+        "skills/openmoc-build-and-install/references/source_map.md",
+        "skills/openmoc-developer-guide/SKILL.md",
+        "skills/openmoc-developer-guide/references/source_map.md",
+        "skills/openmoc-getting-started/SKILL.md",
+        "skills/openmoc-getting-started/references/source_map.md",
+        "skills/openmoc-index/SKILL.md",
+        "skills/openmoc-inputs-and-modeling/references/source_map.md",
+        "skills/openmoc-parallel-hpc/references/source_map.md",
+        "skills/openmoc-releasenotes/references/source_map.md",
+        "skills/openmoc-simulation-workflows/SKILL.md",
+        "skills/openmoc-simulation-workflows/references/source_map.md",
+        "skills/openmoc-tests/SKILL.md",
+        "skills/openmoc-tests/references/source_map.md",
+        "skills/openmoc-theory-and-methods/references/source_map.md",
+        "skills/openmoc-usersguide/SKILL.md",
+        "skills/openmoc-usersguide/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/.evidence/memory.md",
+        "skills/openmoc-advanced-topics/references/source_map.md",
+        "skills/openmoc-api-and-scripting/SKILL.md",
+        "skills/openmoc-api-and-scripting/references/source_map.md",
+        "skills/openmoc-build-and-install/references/source_map.md",
+        "skills/openmoc-developer-guide/SKILL.md",
+        "skills/openmoc-developer-guide/references/source_map.md",
+        "skills/openmoc-getting-started/SKILL.md",
+        "skills/openmoc-getting-started/references/source_map.md",
+        "skills/openmoc-index/SKILL.md",
+        "skills/openmoc-inputs-and-modeling/references/source_map.md",
+        "skills/openmoc-parallel-hpc/references/source_map.md",
+        "skills/openmoc-releasenotes/references/source_map.md",
+        "skills/openmoc-simulation-workflows/SKILL.md",
+        "skills/openmoc-simulation-workflows/references/source_map.md",
+        "skills/openmoc-tests/SKILL.md",
+        "skills/openmoc-tests/references/source_map.md",
+        "skills/openmoc-theory-and-methods/references/source_map.md",
+        "skills/openmoc-usersguide/SKILL.md",
+        "skills/openmoc-usersguide/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Primary narrative documentation lives under docs/source, with supplemental doxygen assets under docs/doxygen.",
+      "Most runnable examples/tutorials are under sample-input; profile/models contains benchmark-style model setups.",
+      "Core implementation spans C/C++ in src and Python/SWIG bindings in openmoc.",
+      "README.rst is important onboarding documentation at repo root but not a directory entry."
+    ],
+    "package_name": "openmoc",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src",
+      "openmoc"
+    ],
+    "test_dirs": [
+      "tests"
+    ],
+    "tutorial_dirs": [
+      "sample-input",
+      "profile/models"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmoc-openmoc",
+  "run_id": "compile_20260304T183200842786Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "openmoc-api-and-scripting",
+      "openmoc-build-and-install",
+      "openmoc-developer-guide",
+      "openmoc-devguide",
+      "openmoc-getting-started",
+      "openmoc-index",
+      "openmoc-inputs-and-modeling",
+      "openmoc-license",
+      "openmoc-parallel-hpc",
+      "openmoc-publications",
+      "openmoc-releasenotes",
+      "openmoc-simulation-workflows",
+      "openmoc-tests",
+      "openmoc-theory-and-methods",
+      "openmoc-usersguide"
+    ],
+    "core_skill_ids": [
+      "openmoc-api-and-scripting",
+      "openmoc-inputs-and-modeling",
+      "openmoc-build-and-install",
+      "openmoc-theory-and-methods",
+      "openmoc-releasenotes",
+      "openmoc-parallel-hpc"
+    ],
+    "deferred_gaps": [
+      "Decide after pass 2 whether profile/models should remain a tutorial root or move to advanced benchmark-only references.",
+      "Root-level docs files (README.rst, LICENSE) are not in docs_dirs and must be explicitly mapped during enrichment.",
+      "Evaluate whether doxygen-specific content under docs/doxygen should be merged into API/developer skills or isolated as advanced topics."
+    ],
+    "goal": "Generate and then enrich a compact docs-first OpenMOC skill set with strong example and test grounding.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "Route requests across build/install, modeling, simulation workflows, API, HPC, and troubleshooting",
+          "Enforce docs-first responses and escalate to source only when docs are insufficient"
+        ],
+        "reason": "A central router is required before topic enrichment so requests are delegated consistently.",
+        "skill_id": "openmoc-index",
+        "source_hints": [
+          "docs/source",
+          "sample-input",
+          "tests",
+          "src",
+          "openmoc"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Documented install/build paths and prerequisites",
+          "Compiler and optional CUDA build variants",
+          "Common build failures with concrete remediation steps"
+        ],
+        "reason": "Build setup is the most common onboarding blocker in this mixed C++/Python/SWIG package.",
+        "skill_id": "openmoc-build-and-install",
+        "source_hints": [
+          "README.rst",
+          "docs/source/usersguide",
+          "setup.py",
+          "config.py",
+          "CMakeLists.txt"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Geometry/cell/material construction patterns",
+          "Boundary conditions and lattice composition",
+          "Mapping documented modeling guidance to runnable examples"
+        ],
+        "reason": "User impact is high because reactor geometry/material modeling is core to every simulation.",
+        "skill_id": "openmoc-inputs-and-modeling",
+        "source_hints": [
+          "docs/source/usersguide",
+          "docs/source/methods",
+          "sample-input",
+          "openmoc/materialize.py"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Forward, adjoint, and fixed-source workflow selection",
+          "Convergence checks, runtime controls, and output interpretation",
+          "Restart/checkpoint and CMFD-related workflow variants"
+        ],
+        "reason": "Run control, convergence, and restart behavior are repeated day-to-day operational tasks.",
+        "skill_id": "openmoc-simulation-workflows",
+        "source_hints": [
+          "docs/source/usersguide",
+          "sample-input",
+          "tests/test_*",
+          "openmoc/options.py",
+          "openmoc/process.py"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Minimal Python API usage sequences",
+          "Plotting and post-processing workflows",
+          "How high-level Python code maps onto SWIG-backed bindings"
+        ],
+        "reason": "Python APIs and bindings are the primary interface used by most users.",
+        "skill_id": "openmoc-api-and-scripting",
+        "source_hints": [
+          "docs/source/api",
+          "openmoc",
+          "openmoc/swig",
+          "sample-input/ipython-notebook"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "MPI execution and validation patterns",
+          "CUDA build/run prerequisites and caveats",
+          "Performance-oriented sanity checks from docs/tests"
+        ],
+        "reason": "MPI/CUDA execution choices strongly affect both performance and correctness.",
+        "skill_id": "openmoc-parallel-hpc",
+        "source_hints": [
+          "docs/source/usersguide",
+          "sample-input/benchmarks",
+          "tests/test_mpi_*",
+          "src/accel",
+          "openmoc/cuda"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Frequent runtime and numerical failure modes",
+          "Regression test pointers by failure class",
+          "Minimal reproduction strategy using existing sample inputs"
+        ],
+        "reason": "The large regression suite can anchor high-signal triage playbooks for common failures.",
+        "skill_id": "openmoc-usersguide",
+        "source_hints": [
+          "tests/readme.rst",
+          "tests/run_tests.py",
+          "tests",
+          "docs/source/devguide"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "openmoc-api-and-scripting",
+      "openmoc-inputs-and-modeling",
+      "openmoc-build-and-install",
+      "openmoc-theory-and-methods",
+      "openmoc-releasenotes",
+      "openmoc-parallel-hpc"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmoc-openmoc/skills/openmoc-releasenotes/references/source_map.md: broken path references: tests/test_cmfd_*, tests/test_forward_*, tests/test_krylov_*",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmoc-openmoc/skills/openmoc-tests/references/source_map.md: broken path references: -R/--tests-regex",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmoc-openmoc/skills/openmoc-api-and-scripting/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmoc-openmoc/skills/openmoc-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmoc-openmoc/skills/openmoc-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmoc-openmoc/skills/openmoc-theory-and-methods/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmoc-openmoc/skills/openmoc-releasenotes/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmoc-openmoc/skills/openmoc-parallel-hpc/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "openmoc-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "openmoc-index",
+      "openmoc-build-and-install",
+      "openmoc-inputs-and-modeling",
+      "openmoc-simulation-workflows",
+      "openmoc-api-and-scripting",
+      "openmoc-parallel-hpc",
+      "openmoc-usersguide"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 13,
+    "source_inventory": {},
+    "source_links_total": 122,
+    "topic_skills": 12,
+    "warnings": []
+  }
+}
